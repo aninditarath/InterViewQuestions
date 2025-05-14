@@ -1,16 +1,15 @@
 package org.example.Linkedlist;
 
 
-import org.w3c.dom.Node;
 
 public class CircularLinkedlist {
 
-    static class Node {
+   public static class Node {
 
-        int data;
-        Node next;
+        public int data;
+        public Node next;
 
-        Node(int data) {
+        public Node(int data) {
             this.data = data;
             this.next=null;
 

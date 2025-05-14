@@ -24,8 +24,15 @@ public class RemoveDuplicatesSortedArray {
         for( int i : dataset){
 
             nums[inc++]=i;
+            while(inc >=dataset.size() && inc<nums.length){
+
+                nums[inc++]=0;
+            }
         }
 
+        for(int i: nums){
+            System.out.print(i + ",");
+        }
 
         return dataset.size();
     }

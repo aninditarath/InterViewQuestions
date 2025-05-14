@@ -12,15 +12,24 @@ public class FindSumOfTwoNumberinArray {
         //{2,3,4};
         // Arrays.sort(nums);
 
-        for(int i=0; i <nums.length;i++){
+//        for(int i=0; i <nums.length;i++){
+//
+//            int pair = target-nums[i];
+//
+//            if(Mapp.containsKey(pair)){
+//
+//                return new int[]{Mapp.get(pair),i};
+//            }
+//            Mapp.put(nums[i],i);
+//        }
 
-            int pair = target-nums[i];
+        for(int i=0; i < nums.length;i++){
+            int data =nums[i];
 
-            if(Mapp.containsKey(pair)){
-
-                return new int[]{Mapp.get(pair),i};
+            if(Mapp.containsKey(data)){
+                return new int[]{Mapp.get(data),i};
             }
-            Mapp.put(nums[i],i);
+            Mapp.put(nums[i],i );
         }
 
         return new int[]{};

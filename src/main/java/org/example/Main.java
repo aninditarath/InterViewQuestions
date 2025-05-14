@@ -1,11 +1,9 @@
 package org.example;
 
 import org.example.Arrays.*;
+import org.example.Linkedlist.CircularLinkedlist;
 import org.example.Stack.CheckValidParanthesis;
-import org.example.Strings.FindIndexOfFirstOccur;
-import org.example.Strings.LengthOfLongestSubstringWithoutRepeting;
-import org.example.Strings.LongestCommonPrefix;
-import org.example.Strings.PalindromeNumber;
+import org.example.Strings.*;
 
 import java.util.Arrays;
 
@@ -23,12 +21,12 @@ public class Main {
 //        System.out.println(Arrays.toString(findsum.twoSum(values,target)));
 
 
-//        RemoveDuplicatesSortedArray removeduplicate = new RemoveDuplicatesSortedArray();
-//
-//        //int [] valuess= {0,0,1,1,1,2,2,3,3,4};
-//
-//        int [] valuess= {-3,-1,0,0,0,3,3};
-//        removeduplicate.removeduplicate(valuess);
+   /*     RemoveDuplicatesSortedArray removeduplicate = new RemoveDuplicatesSortedArray();
+
+        //int [] valuess= {0,0,1,1,1,2,2,3,3,4};
+
+        int [] valuess= {-3,-1,0,0,0,3,3};
+        removeduplicate.removeduplicate(valuess);*/
 
 
 
@@ -91,9 +89,58 @@ public class Main {
 //        int [] data ={1,2,3};
 //        ArrayPlusOne.plusOne(data );
 
-        int [] data1={0,1,1,2};
-        int [] data2= {2,4,5};
-        MergeSortedArray.merge(data1,4,data2,3);
+//        int [] data1={0,1,1,2};
+//        int [] data2= {2,4,5};
+//        MergeSortedArray.merge(data2,3,data1,4);
+
+//
+//        CircularLinkedlist.Node head =new CircularLinkedlist.Node(1);
+//
+//        CircularLinkedlist.Node second =new CircularLinkedlist.Node(2);
+//
+//        CircularLinkedlist.Node third =new CircularLinkedlist.Node(3);
+//
+//        CircularLinkedlist.Node fourth =new CircularLinkedlist.Node(4);
+//
+//        head.next = second;
+//        second.next = third;
+//        third.next = fourth;
+//        fourth.next = second;
+//
+//        boolean hasCycle = CircularLinkedlist.solution(head);
+//        System.out.println("Is the linked list circular? " + hasCycle);
+//
+//
+//        int []value = {1,3,4,-5,6,-9,8,10,11,12};
+//        System.out.println(MaximumAverageSubarray.findmaxavaerage(value,4));
+
+
+       // String s = "   fly me   to   the moon  ";
+
+        //System.out.println(LengthofLastWord.lengthofword(s));
+
+//        String s="anagram"; String t= "nagaram";
+//
+//        System.out.println(ValidAnagram.isAnagram(s,t));
+
+//
+//        String val = "A man, a plan, a canal: Panama";
+//
+//        System.out.println(ValidPalindrome.isPalindrome(val));
+
+//        String s="badc";String t= "baba";
+//
+//        System.out.println(IsoMorphicString.isIsomorphic(s,t));
+
+//       char[] s = {'h','e','l','l','o'};
+//
+//        ReverseString.reverseString(s);
+
+
+       // String s= "";String t="y";
+
+        String s="ae"; String t = "aea";
+        System.out.println(FindDifference.findTheDifference(s,t));
 
 
         }
