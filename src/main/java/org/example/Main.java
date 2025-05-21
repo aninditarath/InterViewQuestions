@@ -139,9 +139,32 @@ public class Main {
 
        // String s= "";String t="y";
 
-        String s="ae"; String t = "aea";
-        System.out.println(FindDifference.findTheDifference(s,t));
+//        String s="ae"; String t = "aea";
+//        System.out.println(FindDifference.findTheDifference(s,t));
+        //String pattern = "abba"; String s = "dog cat cat dog";
 
+//        String pattern = "abba"; String s = "dog dog dog dog";
+//
+//        System.out.println(WordPattern.wordPattern(pattern,s));
+
+
+//        String a= "bcabc";
+//
+//        System.out.println(RemoveDuplicatechars.removeDuplicateLetters(a));
+
+
+//        String s= "ac";
+//
+//        System.out.println(LongestPalindromicString.findlongeststring(s));
+
+//        String []  strs = {"eat","tea","tan","ate","nat","bat"};
+//        System.out.println(GroupAnagrams.findanagram(strs));
+
+
+
+        int[] data ={1,2,3,4,5,2,4};
+        int target =2;
+        System.out.println(FirstandLastPositionOfelement.searchRange(data,target));
 
         }
 

@@ -8,7 +8,6 @@ public class FindDifference {
 
         int sumS = 0, sumT = 0;
 
-        // Sum ASCII values of both strings
         for (char c : s.toCharArray()) {
             sumS += c;
         }
@@ -17,7 +16,6 @@ public class FindDifference {
             sumT += c;
         }
 
-        // The difference is the extra character
         return (char)(sumT - sumS);
     }
 }
