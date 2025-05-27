@@ -4,6 +4,9 @@ import org.practice.Arrays.*;
 import org.practice.Dynamicproblem.AddnumberasStrings;
 import org.practice.Dynamicproblem.FibonacciNumber;
 import org.practice.Dynamicproblem.MissingNumber;
+import org.practice.Strings.LongestpalindromFromAllCharacters;
+
+import java.util.Arrays;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -192,6 +195,18 @@ public class Main {
         String num1 = "11";String num2 = "123";
 
         System.out.println(AddnumberasStrings.addStrings(num1,num2));
+
+
+
+       String  longest = "abccccdd";
+
+        System.out.println(LongestpalindromFromAllCharacters.longestPalindrome(longest));
+
+
+       int[]  nums ={3,2,4}; int target=6;
+
+        System.out.println(TwoSum.twoSum(nums,target));
+
 
         }
 
