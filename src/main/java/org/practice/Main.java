@@ -5,6 +5,7 @@ import org.practice.Dynamicproblem.AddnumberasStrings;
 import org.practice.Dynamicproblem.FibonacciNumber;
 import org.practice.Dynamicproblem.MissingNumber;
 import org.practice.Strings.LongestpalindromFromAllCharacters;
+import org.practice.Strings.ScoreofParentheses;
 
 import java.util.Arrays;
 
@@ -192,21 +193,32 @@ public class Main {
 //        int[] nums={1,0};
 //        System.out.println(MissingNumber.missingNumber(nums));
 
-        String num1 = "11";String num2 = "123";
-
-        System.out.println(AddnumberasStrings.addStrings(num1,num2));
-
-
-
-       String  longest = "abccccdd";
-
-        System.out.println(LongestpalindromFromAllCharacters.longestPalindrome(longest));
+//        String num1 = "11";String num2 = "123";
+//
+//        System.out.println(AddnumberasStrings.addStrings(num1,num2));
 
 
-       int[]  nums ={3,2,4}; int target=6;
 
-        System.out.println(TwoSum.twoSum(nums,target));
+//       String  longest = "abccccdd";
+//
+//        System.out.println(LongestpalindromFromAllCharacters.longestPalindrome(longest));
+//
+//
+//       int[]  nums ={3,2,4}; int target=6;
+//
+//        System.out.println(TwoSum.twoSum(nums,target));
 
+
+//        ()()
+//
+//        System.out.println(ScoreofParentheses.scoreOfParentheses("()()"));
+
+//
+//        int[] nums = {0,3,7,2,5,8,4,6,0,1};
+//        System.out.println(LongestConsecutiveSequence.longestConsecutive(nums));
+
+        int [] data ={1,2,3,1};
+        System.out.println(ContainsDuplicate.containsDuplicate(data));
 
         }
 
