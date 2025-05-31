@@ -5,6 +5,7 @@ import org.practice.Dynamicproblem.AddnumberasStrings;
 import org.practice.Dynamicproblem.FibonacciNumber;
 import org.practice.Dynamicproblem.MissingNumber;
 import org.practice.Strings.LongestpalindromFromAllCharacters;
+import org.practice.Strings.ReverseInteger;
 import org.practice.Strings.ScoreofParentheses;
 
 import java.util.Arrays;
@@ -217,8 +218,17 @@ public class Main {
 //        int[] nums = {0,3,7,2,5,8,4,6,0,1};
 //        System.out.println(LongestConsecutiveSequence.longestConsecutive(nums));
 
-        int [] data ={1,2,3,1};
-        System.out.println(ContainsDuplicate.containsDuplicate(data));
+//        int [] data ={1,2,3,1};
+//        System.out.println(ContainsDuplicate.containsDuplicate(data));
+
+//        int[] arr={-1,0,1,2,-1,-4};
+//        int target = 0;
+//        System.out.println(Sumof3Elements.threeSum(arr));
+//
+//        int[] nums= {0,1,2,1,1,1,0,2};
+//        SortColors.sortColors(nums);
+
+        System.out.println(ReverseInteger.reverse(-1123457689));
 
         }
 
