@@ -1,0 +1,35 @@
+package org.practice.Arrays;
+
+public class SortColors {
+
+    public static void sortColors(int[] nums) {
+
+
+        int low = 0, mid = 0, high = nums.length - 1;
+
+        while (mid <= high) {
+            if (nums[mid] == 0) {
+                swap(nums, low++, mid++);
+            } else if (nums[mid] == 1) {
+                mid++;
+            } else { // nums[mid] == 2
+                swap(nums, mid, high--);
+            }
+        }
+
+        for(int o: nums){
+            System.out.print(o+ " ");
+        }
+    }
+
+
+
+    private static void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
+
+
+}

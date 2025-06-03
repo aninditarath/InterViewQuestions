@@ -13,7 +13,7 @@ import java.util.Arrays;
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
 
 //        FindSumOfTwoNumberinArray findsum = new FindSumOfTwoNumberinArray();
@@ -229,6 +229,9 @@ public class Main {
 //        SortColors.sortColors(nums);
 
         System.out.println(ReverseInteger.reverse(-1123457689));
+
+        int [] arrvalue = {2, 3, -8, 7, -1, 2, 3};;
+        System.out.println(kadanesAlgorithm.findmaxsubarray(arrvalue));
 
         }
 
