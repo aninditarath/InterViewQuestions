@@ -241,6 +241,11 @@ public class Main {
 
         System.out.println(MoveZeros.moveZeroes(arr));
 
+
+        String[] values = {"abc","def","aabc","uij","axs","asd"};
+
+        System.out.println(FindWordsContainingCharacters.findWordsContaining(values,'a'));
+
         }
 
 }
