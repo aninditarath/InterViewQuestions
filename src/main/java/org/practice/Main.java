@@ -246,6 +246,15 @@ public class Main {
 
         System.out.println(FindWordsContainingCharacters.findWordsContaining(values,'a'));
 
+        int[] nums= {1,1,0,0,1,1,1,1};
+
+        System.out.println(MaxConsecutiveOnes.findMaxConsecutiveOnes(nums));
+
+
+        int[] arrvalue= {1,2,3,4,5,5};
+
+        System.out.println(MonotonicArray.isMonotonic(arrvalue));
+
         }
 
 }
