@@ -6,6 +6,7 @@ import org.practice.Dynamicproblem.FibonacciNumber;
 import org.practice.Dynamicproblem.MissingNumber;
 import org.practice.Strings.LongestpalindromFromAllCharacters;
 import org.practice.Strings.ReverseInteger;
+import org.practice.Strings.ReverseVowelsofaString;
 import org.practice.Strings.ScoreofParentheses;
 
 import java.util.Arrays;
@@ -228,10 +229,13 @@ public class Main {
 //        int[] nums= {0,1,2,1,1,1,0,2};
 //        SortColors.sortColors(nums);
 
-        System.out.println(ReverseInteger.reverse(-1123457689));
+//        System.out.println(ReverseInteger.reverse(-1123457689));
+//
+//        int [] arrvalue = {2, 3, -8, 7, -1, 2, 3};;
+//        System.out.println(kadanesAlgorithm.findmaxsubarray(arrvalue));
 
-        int [] arrvalue = {2, 3, -8, 7, -1, 2, 3};;
-        System.out.println(kadanesAlgorithm.findmaxsubarray(arrvalue));
+
+        System.out.println(ReverseVowelsofaString.reverseVowels("IceCreAm"));
 
         }
 
