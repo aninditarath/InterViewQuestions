@@ -237,6 +237,10 @@ public class Main {
 
         System.out.println(ReverseVowelsofaString.reverseVowels("IceCreAm"));
 
+        int[] arr= {2,3,0,4,10,0,9};
+
+        System.out.println(MoveZeros.moveZeroes(arr));
+
         }
 
 }
