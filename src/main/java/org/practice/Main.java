@@ -255,6 +255,8 @@ public class Main {
 
         System.out.println(MonotonicArray.isMonotonic(arrvalue));
 
+        System.out.println(ThirdMaximumNumber.thirdMax(arrvalue));
+
         }
 
 }
