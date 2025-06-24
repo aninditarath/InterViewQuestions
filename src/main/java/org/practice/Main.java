@@ -4,10 +4,8 @@ import org.practice.Arrays.*;
 import org.practice.Dynamicproblem.AddnumberasStrings;
 import org.practice.Dynamicproblem.FibonacciNumber;
 import org.practice.Dynamicproblem.MissingNumber;
-import org.practice.Strings.LongestpalindromFromAllCharacters;
-import org.practice.Strings.ReverseInteger;
-import org.practice.Strings.ReverseVowelsofaString;
-import org.practice.Strings.ScoreofParentheses;
+import org.practice.LeetCodeChallange.GenerateTagForVideo;
+import org.practice.Strings.*;
 
 import java.util.Arrays;
 
@@ -256,6 +254,21 @@ public class Main {
         System.out.println(MonotonicArray.isMonotonic(arrvalue));
 
         System.out.println(ThirdMaximumNumber.thirdMax(arrvalue));
+
+
+        int[] arr1= {1,2}; int[]arr2= {3,4,5};
+
+        System.out.println(MedianTwoSortedArray.findMedianSortedArrays(arr1,arr2));
+
+        System.out.println(ClimbingStairs.climbStairs(4));
+
+
+        String caption= "Leetcode daily streak achieved";
+        System.out.println(GenerateTagForVideo.generatetag(caption));
+
+        String stringvalue ="absdecfg"; String sub= "abc";
+
+        System.out.println(IsSubsequence.isSubsequence(sub,stringvalue));
 
         }
 
