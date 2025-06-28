@@ -269,6 +269,14 @@ public class Main {
         String stringvalue ="absdecfg"; String sub= "abc";
 
         System.out.println(IsSubsequence.isSubsequence(sub,stringvalue));
+        String input  = "abcdefg";int k = 2;
+
+        System.out.println(ReverseStringII.reverseStr(input,k));
+
+        int[] numsarray ={1,2,2,3,4,5,6,7};
+
+
+        System.out.println(ElementHasPrimeFrequency.checkPrimeFrequency(numsarray));
 
         }
 
