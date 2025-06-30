@@ -289,6 +289,9 @@ public class Main {
         int[]  majority={2,2,1,1,1,2,2};
         System.out.println(MajorityElement.majorityElement(majority));
 
+        int[] maxsubarraysum={-2,1,-3,4,-1,2,1,-5,4};
+        System.out.println(MaximumSubarray.maxSubArray(maxsubarraysum));
+
         }
 
 }
