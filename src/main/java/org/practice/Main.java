@@ -278,6 +278,10 @@ public class Main {
 
         System.out.println(ElementHasPrimeFrequency.checkPrimeFrequency(numsarray));
 
+        int[] arrvalues= {1,1,2,3,5,8,9};
+
+        FindDissaperedNumbers.findDisappearedNumbers(arrvalues);
+
         }
 
 }
