@@ -286,6 +286,9 @@ public class Main {
 
         System.out.println(CreateLargestNumber.largestNumber(largest));
 
+        int[]  majority={2,2,1,1,1,2,2};
+        System.out.println(MajorityElement.majorityElement(majority));
+
         }
 
 }
