@@ -1,36 +1,33 @@
 package org.practice.Arrays;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class IntersectionArrays {
 
-    public static void findcommon(int[]nums1,int[]nums2){
+    public static int[]  findcommon(int[]nums1,int[]nums2){
 
+        Set<Integer> set1 = new HashSet<>();
+        Set<Integer> result = new HashSet<>();
 
-        int n=nums1.length;
-        int m=nums1.length;
-        Set<Integer> data= new HashSet<>();
-        int i,j=0;
+        for (int num : nums1) {
+            set1.add(num);
+        }
 
-        for( i=0;i<n;i++){
-
-            while(i<n && j<m) {
-
-                if (nums1[i] == nums2[j]) {
-
-                    j++;
-                    data.add(nums1[i]);
-                }
-                i++;
+        for (int num : nums2) {
+            if (set1.contains(num)) {
+                result.add(num);
             }
         }
 
-        for(int val:data){
-
-            System.out.println(val);
-
+        int[] output = new int[result.size()];
+        int index = 0;
+        for (int num : result) {
+            output[index++] = num;
         }
+  for(int k : output){
+      System.out.println(k);
+  }
+        return output;
 //import java.util.*;
 //
 //        public class IntersectionArrays {

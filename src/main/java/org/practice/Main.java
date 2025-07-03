@@ -297,10 +297,6 @@ public class Main {
         System.out.println(MaximumSubarray.maxSubArray(maxsubarraysum));
 
 
-//        int[] numsvalue1= {1,1,4,5,6,6,7,8,9,9,0};
-//        int[] numsvalue2 ={2,2,4,6,10,14,89};
-
-        //System.out.println(IntersectionOftwoArrayReturnArray.intersection(numsvalue1,numsvalue2));
 
         }
 
