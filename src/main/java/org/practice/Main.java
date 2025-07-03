@@ -302,6 +302,11 @@ public class Main {
 
         System.out.println(IntersectionOftwoArrayReturnArray.intersection(numsvalue1,numsvalue2));
 
+        int[]numsarray1 = {4,9,5};
+        int[] numsarray2= {9,4,9,8,4};
+
+        IntersectionOfTwoArrays_2.intersect(numsarray1,numsarray2);
+
         }
 
 }
