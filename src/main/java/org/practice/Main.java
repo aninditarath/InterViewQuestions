@@ -79,10 +79,14 @@ public class Main {
 
 //      //  System.out.println(FirstMissingPositive.firstMissingPositive(new int[]{1,2,0}));
 //
-//        int[] a = {3, 5, 10, 10, 10, 15, 15, 20};
-//        int[] b = {5, 10, 10, 15, 30};
-//
-//        IntersectionArrays.findcommon(a,b);
+        int[] a = {3, 5, 10, 10, 10, 15, 15, 20};
+        int[] b = {5, 10, 10, 15, 30};
+
+//        int[] numsvalue1= {1,1,4,5,6,6,7,8,9,9,0};
+//        int[] numsvalue2 ={2,2,4,6,10,14,89};
+
+
+        IntersectionArrays.findcommon(a,b);
 
 
 
@@ -291,6 +295,12 @@ public class Main {
 
         int[] maxsubarraysum={-2,1,-3,4,-1,2,1,-5,4};
         System.out.println(MaximumSubarray.maxSubArray(maxsubarraysum));
+
+
+//        int[] numsvalue1= {1,1,4,5,6,6,7,8,9,9,0};
+//        int[] numsvalue2 ={2,2,4,6,10,14,89};
+
+        //System.out.println(IntersectionOftwoArrayReturnArray.intersection(numsvalue1,numsvalue2));
 
         }
 
