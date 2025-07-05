@@ -307,6 +307,10 @@ public class Main {
 
         IntersectionOfTwoArrays_2.intersect(numsarray1,numsarray2);
 
+        char[] s={'h','e','l','l','o','o'};
+
+        ReverseStringTwoPointer.reverseString(s);
+
         }
 
 }
