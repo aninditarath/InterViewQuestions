@@ -8,6 +8,7 @@ public class WordPattern {
     public static boolean wordPattern(String pattern, String s) {
 
         String[] newpattern = s.split(" ");
+        if (pattern.length() != newpattern.length) return false;
 
         Map<Character, String> map1= new LinkedHashMap<>();
 
