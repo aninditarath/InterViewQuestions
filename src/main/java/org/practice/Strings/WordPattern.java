@@ -13,26 +13,22 @@ public class WordPattern {
 
         Map<String,Character> map2= new LinkedHashMap<>();
 
-        for(int i=0; i <newpattern.length;i++){
+        for (int i = 0; i < newpattern.length; i++) {
+            char c = pattern.charAt(i);
+            String word = newpattern[i];
 
-            if(!map1.containsKey(pattern.charAt(i))){
-
-                map1.put(pattern.charAt(i),newpattern[i]);
+            if (map1.containsKey(c)) {
+                if (!map1.get(c).equals(word)) return false;
+            } else {
+                map1.put(c, word);
             }
 
-            if(!map2.containsKey(newpattern[i])){
-
-                map2.put(newpattern[i],pattern.charAt(i));
-            }
-
-
-            if(!map1.get(pattern.charAt(i)).equals(map2.get(newpattern[i])) && map2.get(newpattern[i]).equals(map1.get(pattern.charAt(i)))){
-
-                return false;
+            if (map2.containsKey(word)) {
+                if (map2.get(word) != c) return false;
+            } else {
+                map2.put(word, c);
             }
         }
-
-
 
         return true;
 

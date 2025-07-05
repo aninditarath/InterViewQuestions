@@ -149,9 +149,9 @@ public class Main {
 //        System.out.println(FindDifference.findTheDifference(s,t));
         //String pattern = "abba"; String s = "dog cat cat dog";
 
-//        String pattern = "abba"; String s = "dog dog dog dog";
-//
-//        System.out.println(WordPattern.wordPattern(pattern,s));
+        String pattern = "abba"; String s = "dog dog dog dog";
+
+        System.out.println(WordPattern.wordPattern(pattern,s) + "---- word pattern program");
 
 
 //        String a= "bcabc";
@@ -307,9 +307,9 @@ public class Main {
 
         IntersectionOfTwoArrays_2.intersect(numsarray1,numsarray2);
 
-        char[] s={'h','e','l','l','o','o'};
+        char[] p={'h','e','l','l','o','o'};
 
-        ReverseStringTwoPointer.reverseString(s);
+        ReverseStringTwoPointer.reverseString(p);
 
         }
 
