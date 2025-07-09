@@ -311,6 +311,14 @@ public class Main {
 
         ReverseStringTwoPointer.reverseString(p);
 
+        String word="LeetCode";
+
+        System.out.println(IsCapital.detectCapitalUse(word));
+
+        String uppercase="LEETCODEDATAvalue";
+
+        System.out.println(ConvertLowerCaseWithoutBuiltinFunc.toLowerCase(uppercase));
+
         }
 
 }
