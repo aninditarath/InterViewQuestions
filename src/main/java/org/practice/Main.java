@@ -322,6 +322,8 @@ public class Main {
 
         FizzBuzzString.fizzBuzz(15);
 
+        System.out.println(RansomeNote.canConstruct("aa", "ab"));
+
         }
 
 }
