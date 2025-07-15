@@ -319,6 +319,9 @@ public class Main {
 
         System.out.println(ConvertLowerCaseWithoutBuiltinFunc.toLowerCase(uppercase));
 
+
+        FizzBuzzString.fizzBuzz(15);
+
         }
 
 }
