@@ -324,6 +324,8 @@ public class Main {
 
         System.out.println(RansomeNote.canConstruct("aa", "ab"));
 
+        System.out.println(ReverseWordsinString.reverseWords("a good   example"));
+
         }
 
 }
