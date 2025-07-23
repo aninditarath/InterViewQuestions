@@ -224,9 +224,9 @@ public class Main {
 //        int [] data ={1,2,3,1};
 //        System.out.println(ContainsDuplicate.containsDuplicate(data));
 
-//        int[] arr={-1,0,1,2,-1,-4};
-//        int target = 0;
-//        System.out.println(Sumof3Elements.threeSum(arr));
+        int[] arrthreesum={-1,0,1,2,-1,-4};
+        int target = 0;
+        System.out.println(Sumof3Elements.threeSum(arrthreesum) + " three sum problem");
 //
 //        int[] nums= {0,1,2,1,1,1,0,2};
 //        SortColors.sortColors(nums);
@@ -325,6 +325,16 @@ public class Main {
         System.out.println(RansomeNote.canConstruct("aa", "ab"));
 
         System.out.println(ReverseWordsinString.reverseWords("a good   example"));
+
+        int[] arrvaluee= {1,2,3,4,6,8,0};
+        int targetvalue=8;
+        int[] result =TwoSumArrayIndex.twoSum(arrvaluee,targetvalue);
+
+        if (result.length == 2) {
+            System.out.println("Output: [" + result[0] + ", " + result[1] + "]");
+        } else {
+            System.out.println("No valid pair found.");
+        }
 
         }
 
