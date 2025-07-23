@@ -7,52 +7,39 @@ public class Sumof3Elements {
     public static List<List<Integer>> threeSum(int[] nums) {
 
 
-        //int[] arr = {1, 2, 3, -1, 0, 4, -4, 5, -5, 10, 12, -22};
-        int[] arr={-1,0,1,2,-1,-4};
-        int target = 0;
+        List<List<Integer>> result = new ArrayList<>();
+        Arrays.sort(nums);
 
+        for (int i = 0; i < nums.length - 2; i++) {
+            // Skip duplicate values for i
+            if (i > 0 && nums[i] == nums[i - 1]) continue;
 
-        List<List<Integer>> listt = new ArrayList<>();
+            int left = i + 1;
+            int right = nums.length - 1;
+            int target = -nums[i];
 
-//
-       Arrays.sort(arr);
-//        int i = arr[0];
+            while (left < right) {
+                int sum = nums[left] + nums[right];
 
+                if (sum == target) {
+                    result.add(Arrays.asList(nums[i], nums[left], nums[right]));
 
-        for (int k = 0; k < arr.length; k++) {
-            int start = 1;
-            int end = arr.length - 1;
-            while (start < end) {
+                    // Skip duplicates for left and right
+                    while (left < right && nums[left] == nums[left + 1]) left++;
+                    while (left < right && nums[right] == nums[right - 1]) right--;
 
-                int sum = arr[start] + arr[end] + arr[k];
+                    left++;
+                    right--;
 
-                if (sum > target) {
-                    end--;
                 } else if (sum < target) {
-                    start++;
-                } else if (sum == target) {
-
-//                   // System.out.println(arr[start] + " and " + arr[end] +" and "+ arr[k]);
-                    listt.add(Arrays.asList(nums[k], nums[start], nums[end]));
-
-                    // Skip duplicates for start and end
-                    while (start < end && nums[start] == nums[start + 1]) start++;
-                    while (start < end && nums[end] == nums[end - 1]) end--;
-
-                    start++;
-                    end--;
-
-                    start++;
-                    end--;
+                    left++;
                 } else {
-
-                    System.out.println("no pairs ");
+                    right--;
                 }
-
             }
         }
 
-        return listt;
+        return result;
     }
 
 }
