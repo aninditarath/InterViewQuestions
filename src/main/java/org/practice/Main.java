@@ -336,6 +336,8 @@ public class Main {
             System.out.println("No valid pair found.");
         }
 
+
+        System.out.println(TitletoNumber.titleToNumber("AAB"));
         }
 
 }
